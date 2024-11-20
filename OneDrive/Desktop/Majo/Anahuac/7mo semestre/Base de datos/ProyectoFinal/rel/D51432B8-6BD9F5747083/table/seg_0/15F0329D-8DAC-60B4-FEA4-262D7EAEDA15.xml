@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="15F0329D-8DAC-60B4-FEA4-262D7EAEDA15" name="MetodosPago">
+<createdBy>major</createdBy>
+<createdTime>2024-05-07 19:59:02 UTC</createdTime>
+<generatorID>84AFF40B-4D0B-DC18-0EDF-C4CC196ED96C</generatorID>
+<ownerDesignName>ProyectoFinal</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idMetodo" id="8C8D32F8-2732-3C0A-C1E0-F32CFA589CB2">
+<createdBy>major</createdBy>
+<createdTime>2024-05-07 19:59:02 UTC</createdTime>
+<generatorID>454BAFD3-5676-D0C2-034B-5F6DD15A411A</generatorID>
+<ownerDesignName>ProyectoFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombreMetodo" id="CAA9F272-8407-4928-0F73-9E5328FBAB3A">
+<createdBy>major</createdBy>
+<createdTime>2024-05-07 19:59:02 UTC</createdTime>
+<generatorID>7D52B511-9709-5110-EAC5-7071388570E0</generatorID>
+<ownerDesignName>ProyectoFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Pedidos_idPedido" id="3117FE0B-B33F-7CB2-789E-75FBFA905543">
+<createdBy>major</createdBy>
+<createdTime>2024-05-07 19:59:02 UTC</createdTime>
+<generatorID>7C800D59-0FCC-CB7F-373E-A874F82BB7AD</generatorID>
+<ownerDesignName>ProyectoFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="78257193-A3BA-26C5-6BD0-6B2373E3FE5C" referredColumn="4B90A3AF-3087-4D89-3D0D-2B89C07F8255"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D7B74C3D-B45E-EC7E-CDA6-CE470E89CF6A" name="MetodosPago_PK">
+<createdBy>major</createdBy>
+<createdTime>2024-05-07 19:59:02 UTC</createdTime>
+<generatorID>21767CDE-759A-FF45-6B7E-A2EF8DEDFECA</generatorID>
+<ownerDesignName>ProyectoFinal</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8C8D32F8-2732-3C0A-C1E0-F32CFA589CB2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="96118753-34D3-B437-06EA-23EDEC94F59E" name="MetodosPago_Pedidos_FK">
+<createdBy>major</createdBy>
+<createdTime>2024-05-07 19:59:03 UTC</createdTime>
+<generatorID>CA1DFA84-D768-FBE1-3375-AF4FE9CA3E8A</generatorID>
+<ownerDesignName>ProyectoFinal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3117FE0B-B33F-7CB2-789E-75FBFA905543"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

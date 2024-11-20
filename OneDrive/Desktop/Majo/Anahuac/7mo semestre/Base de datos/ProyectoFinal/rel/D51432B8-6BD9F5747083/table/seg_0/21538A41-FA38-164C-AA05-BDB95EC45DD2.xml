@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="21538A41-FA38-164C-AA05-BDB95EC45DD2" name="Persona">
+<createdBy>major</createdBy>
+<createdTime>2024-05-07 19:59:02 UTC</createdTime>
+<generatorID>8AF04D47-9756-7888-B9D2-CFCA3A054917</generatorID>
+<ownerDesignName>ProyectoFinal</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idPersona" id="BAEB008F-8392-CFE2-9E60-7120603A0225">
+<createdBy>major</createdBy>
+<createdTime>2024-05-07 19:59:02 UTC</createdTime>
+<generatorID>008084C5-72C6-7374-4732-2C2BB36B7CFC</generatorID>
+<ownerDesignName>ProyectoFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rfc" id="410FCE7E-4B01-38FD-ABD0-62053F8A9084">
+<createdBy>major</createdBy>
+<createdTime>2024-05-07 19:59:02 UTC</createdTime>
+<generatorID>632EC888-83C5-0BB6-EF82-18332EAAD6B7</generatorID>
+<ownerDesignName>ProyectoFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombrePersona" id="0ED9DA64-9FC7-A080-170C-7775EF081F15">
+<createdBy>major</createdBy>
+<createdTime>2024-05-07 19:59:02 UTC</createdTime>
+<generatorID>85C8DDC7-D722-4728-E299-F608923F05DC</generatorID>
+<ownerDesignName>ProyectoFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="correo" id="77BF74CA-E40B-89C8-38D0-9802A4CDF10C">
+<createdBy>major</createdBy>
+<createdTime>2024-05-07 19:59:02 UTC</createdTime>
+<generatorID>2951AD6C-562B-FAEE-8BDA-1FA6859F5320</generatorID>
+<ownerDesignName>ProyectoFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefono" id="48E197EA-C1A1-ECDD-4703-6FBD2D79CE46">
+<createdBy>major</createdBy>
+<createdTime>2024-05-07 19:59:02 UTC</createdTime>
+<generatorID>C3991A79-3102-0288-D869-81A80D449115</generatorID>
+<ownerDesignName>ProyectoFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="apellidoPersona" id="86DFC583-E4F0-0A00-5896-D98D19B91AE2">
+<createdBy>major</createdBy>
+<createdTime>2024-05-07 22:14:30 UTC</createdTime>
+<generatorID>8AF35CA3-F3DC-B2BA-33B9-AA02EE189F9C</generatorID>
+<ownerDesignName>ProyectoFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D2131F6F-9690-DC87-304F-3D9CAFC94F28" name="Persona_PK">
+<createdBy>major</createdBy>
+<createdTime>2024-05-07 19:59:02 UTC</createdTime>
+<generatorID>FF7F0074-FEFB-52C3-FB9D-F73F9940FA78</generatorID>
+<ownerDesignName>ProyectoFinal</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BAEB008F-8392-CFE2-9E60-7120603A0225"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

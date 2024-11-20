@@ -1,0 +1,29 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="28652D9A-6B8C-B2C2-D7EC-FC75A1B9C3B3" name="Proveedores">
+<createdBy>major</createdBy>
+<createdTime>2024-05-07 16:31:19 UTC</createdTime>
+<ownerDesignName>ProyectoFinal</ownerDesignName>
+<engineerTo>
+<item key="D51432B8-51BF-168A-C768-6BD9F5747083" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>8AF04D47-9756-7888-B9D2-CFCA3A054917</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4080BB14-83F8-7A55-A8CF-37A10EC3ACDF" name="Proveedores PK">
+<createdBy>major</createdBy>
+<createdTime>2024-05-07 16:32:26 UTC</createdTime>
+<ownerDesignName>ProyectoFinal</ownerDesignName>
+<engineerTo>
+<item key="D51432B8-51BF-168A-C768-6BD9F5747083" value="true"/>
+</engineerTo>
+<pk>true</pk>
+</identifier>
+</identifiers>
+</Entity>

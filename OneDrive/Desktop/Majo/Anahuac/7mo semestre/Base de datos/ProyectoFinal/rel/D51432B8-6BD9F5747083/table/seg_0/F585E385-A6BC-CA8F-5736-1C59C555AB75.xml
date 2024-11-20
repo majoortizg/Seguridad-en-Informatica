@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F585E385-A6BC-CA8F-5736-1C59C555AB75" name="Clientes_Pedidos">
+<createdBy>major</createdBy>
+<createdTime>2024-05-07 19:59:03 UTC</createdTime>
+<ownerDesignName>ProyectoFinal</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Clientes_idPersona" id="F96E6DA7-325F-765B-1377-66D0D280BBE3">
+<createdBy>major</createdBy>
+<createdTime>2024-05-07 19:59:03 UTC</createdTime>
+<ownerDesignName>ProyectoFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7CB98867-E59C-CA05-7A21-E6447C1321B4" referredColumn="344DD862-39BE-BF83-EF82-141AA4A7BF6C"/>
+</associations>
+</Column>
+<Column name="Pedidos_idPedido" id="7F76DC07-10DA-4AD0-6EF2-E46FD3B4B4AA">
+<createdBy>major</createdBy>
+<createdTime>2024-05-07 19:59:03 UTC</createdTime>
+<ownerDesignName>ProyectoFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B2F58A05-38CF-649A-46AB-BBD29FB71C1E" referredColumn="4B90A3AF-3087-4D89-3D0D-2B89C07F8255"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="42BE3648-EDB0-97EE-00B1-791D402267A8" name="Relation_7_PK">
+<createdBy>major</createdBy>
+<createdTime>2024-05-07 19:59:03 UTC</createdTime>
+<ownerDesignName>ProyectoFinal</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F96E6DA7-325F-765B-1377-66D0D280BBE3"/>
+<colUsage columnID="7F76DC07-10DA-4AD0-6EF2-E46FD3B4B4AA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CDAA7651-6408-8FB2-077B-7DDC10EC20FD" name="Relation_7_Clientes_FK">
+<createdBy>major</createdBy>
+<createdTime>2024-05-07 19:59:03 UTC</createdTime>
+<generatorID>966E9C09-1B36-5BA1-79FD-A502FC68456F</generatorID>
+<ownerDesignName>ProyectoFinal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F96E6DA7-325F-765B-1377-66D0D280BBE3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B68C9052-3D12-BACB-CDE9-13483209EC71" name="Relation_7_Pedidos_FK">
+<createdBy>major</createdBy>
+<createdTime>2024-05-07 19:59:03 UTC</createdTime>
+<generatorID>966E9C09-1B36-5BA1-79FD-A502FC68456F</generatorID>
+<ownerDesignName>ProyectoFinal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7F76DC07-10DA-4AD0-6EF2-E46FD3B4B4AA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

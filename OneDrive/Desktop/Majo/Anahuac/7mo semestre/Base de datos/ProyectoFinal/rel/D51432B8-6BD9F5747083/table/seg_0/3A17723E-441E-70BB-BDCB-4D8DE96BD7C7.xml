@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3A17723E-441E-70BB-BDCB-4D8DE96BD7C7" name="Empleados">
+<createdBy>major</createdBy>
+<createdTime>2024-05-07 19:59:02 UTC</createdTime>
+<generatorID>DBFAC277-19A1-10EC-CEE9-F1A39A1F9A07</generatorID>
+<ownerDesignName>ProyectoFinal</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idPersona" id="EFB24D2A-D397-B432-3021-4535074805FD">
+<createdBy>major</createdBy>
+<createdTime>2024-05-07 19:59:02 UTC</createdTime>
+<generatorID>008084C5-72C6-7374-4732-2C2BB36B7CFC</generatorID>
+<ownerDesignName>ProyectoFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="61A37D95-4E8B-6D4A-C7FB-75E26662F05C" referredColumn="BAEB008F-8392-CFE2-9E60-7120603A0225"/>
+</associations>
+</Column>
+<Column name="salario" id="620F9C8B-1375-F34A-5698-1E18E3A7B19F">
+<createdBy>major</createdBy>
+<createdTime>2024-05-07 19:59:02 UTC</createdTime>
+<generatorID>A8A3F379-53A8-061C-CF9B-C992A72954BD</generatorID>
+<ownerDesignName>ProyectoFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9D1F6A4F-E089-0BC1-08A2-BBE915AC7A5D" name="Empleados_PK">
+<createdBy>major</createdBy>
+<createdTime>2024-05-07 19:59:02 UTC</createdTime>
+<generatorID>FF7F0074-FEFB-52C3-FB9D-F73F9940FA78</generatorID>
+<ownerDesignName>ProyectoFinal</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EFB24D2A-D397-B432-3021-4535074805FD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="33474A9F-6C63-B257-B5C6-80E75BCC7B2C" name="Empleados_PKv1">
+<createdBy>major</createdBy>
+<createdTime>2024-05-07 19:59:02 UTC</createdTime>
+<generatorID>A3F9FC1B-AA12-C2BD-8FC7-648F32F28D23</generatorID>
+<ownerDesignName>ProyectoFinal</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="653465E3-F05E-FCE3-9984-4FBE72A8C1CF" name="Empleados_Persona_FK">
+<createdBy>major</createdBy>
+<createdTime>2024-05-07 19:59:02 UTC</createdTime>
+<generatorID>D67B26ED-13A0-E97B-7A2A-16A5126D7885</generatorID>
+<ownerDesignName>ProyectoFinal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EFB24D2A-D397-B432-3021-4535074805FD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

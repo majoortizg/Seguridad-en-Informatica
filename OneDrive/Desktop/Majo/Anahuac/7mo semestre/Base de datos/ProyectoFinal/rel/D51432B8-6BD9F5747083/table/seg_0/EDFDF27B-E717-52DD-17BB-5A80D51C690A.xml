@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EDFDF27B-E717-52DD-17BB-5A80D51C690A" name="Producto">
+<createdBy>major</createdBy>
+<createdTime>2024-05-07 19:59:02 UTC</createdTime>
+<generatorID>FF9DFA1C-7523-D986-9366-9BB9AC075E25</generatorID>
+<ownerDesignName>ProyectoFinal</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idProducto" id="B251DD67-AE3B-CC01-DC1E-734A6BC5EC93">
+<createdBy>major</createdBy>
+<createdTime>2024-05-07 19:59:02 UTC</createdTime>
+<generatorID>2649BE95-C74F-9C82-01FA-B9A320AE65D2</generatorID>
+<ownerDesignName>ProyectoFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombreProducto" id="F3C2CA40-577F-D645-BF9C-CDAB9812EFF6">
+<createdBy>major</createdBy>
+<createdTime>2024-05-07 19:59:02 UTC</createdTime>
+<generatorID>65577F4B-2F4F-1555-5A87-DCD20E08D24C</generatorID>
+<ownerDesignName>ProyectoFinal</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Pedidos_idPedido" id="1D3B2841-20FC-5C93-3B49-06B970E7781B">
+<createdBy>major</createdBy>
+<createdTime>2024-05-07 19:59:02 UTC</createdTime>
+<generatorID>52131A08-CC4F-C105-C9B9-D3E146C2D772</generatorID>
+<ownerDesignName>ProyectoFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B0446227-89E4-5916-AEF4-945AD684CD92" referredColumn="4B90A3AF-3087-4D89-3D0D-2B89C07F8255"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8B9AB9A0-ABD4-DF48-C5D1-BFFFD7E9C9E7" name="Producto_PK">
+<createdBy>major</createdBy>
+<createdTime>2024-05-07 19:59:02 UTC</createdTime>
+<generatorID>3ED7D4FF-EF94-98BE-54DB-1A417336EC8E</generatorID>
+<ownerDesignName>ProyectoFinal</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B251DD67-AE3B-CC01-DC1E-734A6BC5EC93"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D4CBE1C5-6B8F-5B29-630E-DCC57814A4A2" name="Producto_Proveedores_FK">
+<createdBy>major</createdBy>
+<createdTime>2024-05-07 19:59:03 UTC</createdTime>
+<generatorID>1B668E30-A9A9-A3E1-B846-4F1684CCFA3E</generatorID>
+<ownerDesignName>ProyectoFinal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="DCB1716F-8698-68A9-1116-502DBF860AFF" name="Producto_Pedidos_FK">
+<createdBy>major</createdBy>
+<createdTime>2024-05-07 19:59:03 UTC</createdTime>
+<generatorID>E884396B-2FA7-B0ED-4A37-16F12A847021</generatorID>
+<ownerDesignName>ProyectoFinal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1D3B2841-20FC-5C93-3B49-06B970E7781B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

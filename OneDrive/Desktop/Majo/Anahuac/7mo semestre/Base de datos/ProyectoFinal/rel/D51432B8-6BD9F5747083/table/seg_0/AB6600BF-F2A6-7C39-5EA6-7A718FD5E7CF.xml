@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AB6600BF-F2A6-7C39-5EA6-7A718FD5E7CF" name="Arreglos">
+<createdBy>major</createdBy>
+<createdTime>2024-05-07 19:59:02 UTC</createdTime>
+<generatorID>AB56697C-D52B-8DAA-EE7D-CAA1CF7128DF</generatorID>
+<ownerDesignName>ProyectoFinal</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idProducto" id="583919F5-8198-5695-A6FD-F27AEEFD1867">
+<createdBy>major</createdBy>
+<createdTime>2024-05-07 19:59:02 UTC</createdTime>
+<generatorID>2649BE95-C74F-9C82-01FA-B9A320AE65D2</generatorID>
+<ownerDesignName>ProyectoFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EB86E26C-8FE0-EEC8-2694-3AF2A1EF3353" referredColumn="B251DD67-AE3B-CC01-DC1E-734A6BC5EC93"/>
+</associations>
+</Column>
+<Column name="nombreArreglo" id="E6F011E5-9C83-A364-FDEC-D20AA01E03C7">
+<createdBy>major</createdBy>
+<createdTime>2024-05-07 19:59:02 UTC</createdTime>
+<generatorID>432C92E7-312C-FFE6-EB82-EADA9C0468BA</generatorID>
+<ownerDesignName>ProyectoFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="precioArreglo" id="4C237AFD-04EE-9B24-FBD1-11C50523F11E">
+<createdBy>major</createdBy>
+<createdTime>2024-05-07 19:59:02 UTC</createdTime>
+<generatorID>0D9963CB-703B-9BE6-020F-7CB64267B02F</generatorID>
+<ownerDesignName>ProyectoFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9E02B847-65C9-7F8A-59A2-10600C53BC56" name="Arreglos_PK">
+<createdBy>major</createdBy>
+<createdTime>2024-05-07 19:59:02 UTC</createdTime>
+<generatorID>3ED7D4FF-EF94-98BE-54DB-1A417336EC8E</generatorID>
+<ownerDesignName>ProyectoFinal</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="583919F5-8198-5695-A6FD-F27AEEFD1867"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9840F2A6-D479-819B-DD5D-2616F97E9BFF" name="Arreglos_PKv1">
+<createdBy>major</createdBy>
+<createdTime>2024-05-07 19:59:02 UTC</createdTime>
+<generatorID>96FDF7BE-6D98-15DE-6092-303CA3984DFE</generatorID>
+<ownerDesignName>ProyectoFinal</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="2A604457-88B7-E521-88C0-18AF2DCC6971" name="Arreglos_Producto_FK">
+<createdBy>major</createdBy>
+<createdTime>2024-05-07 19:59:02 UTC</createdTime>
+<generatorID>858EBAB2-1FA8-980B-DB8A-4D33472A566C</generatorID>
+<ownerDesignName>ProyectoFinal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="583919F5-8198-5695-A6FD-F27AEEFD1867"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

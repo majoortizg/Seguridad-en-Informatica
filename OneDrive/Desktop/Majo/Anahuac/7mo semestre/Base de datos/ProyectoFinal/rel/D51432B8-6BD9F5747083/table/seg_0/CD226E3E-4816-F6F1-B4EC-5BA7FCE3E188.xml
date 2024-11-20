@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CD226E3E-4816-F6F1-B4EC-5BA7FCE3E188" name="Clientes">
+<createdBy>major</createdBy>
+<createdTime>2024-05-07 19:59:02 UTC</createdTime>
+<generatorID>FF428601-5541-5C22-5F14-CB00AE56B27C</generatorID>
+<ownerDesignName>ProyectoFinal</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idPersona" id="344DD862-39BE-BF83-EF82-141AA4A7BF6C">
+<createdBy>major</createdBy>
+<createdTime>2024-05-07 19:59:02 UTC</createdTime>
+<generatorID>008084C5-72C6-7374-4732-2C2BB36B7CFC</generatorID>
+<ownerDesignName>ProyectoFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="49BE63EC-D10B-7FE1-E6AC-A752D723A07D" referredColumn="BAEB008F-8392-CFE2-9E60-7120603A0225"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7D7EF181-2F36-3ACB-B879-A0344430BF8E" name="Clientes_PK">
+<createdBy>major</createdBy>
+<createdTime>2024-05-07 19:59:02 UTC</createdTime>
+<generatorID>FF7F0074-FEFB-52C3-FB9D-F73F9940FA78</generatorID>
+<ownerDesignName>ProyectoFinal</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="344DD862-39BE-BF83-EF82-141AA4A7BF6C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="712AC660-5416-2AB7-5B77-0D725853184A" name="Clientes_PKv1">
+<createdBy>major</createdBy>
+<createdTime>2024-05-07 19:59:02 UTC</createdTime>
+<generatorID>B29332F8-0443-A3B0-2C87-F1121C40FE50</generatorID>
+<ownerDesignName>ProyectoFinal</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="CA47985C-0A25-B1A0-2852-115D3C59565B" name="Clientes_Persona_FK">
+<createdBy>major</createdBy>
+<createdTime>2024-05-07 19:59:02 UTC</createdTime>
+<generatorID>65C075BC-F96B-5B9C-CFA0-F31EAA7970FD</generatorID>
+<ownerDesignName>ProyectoFinal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="344DD862-39BE-BF83-EF82-141AA4A7BF6C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

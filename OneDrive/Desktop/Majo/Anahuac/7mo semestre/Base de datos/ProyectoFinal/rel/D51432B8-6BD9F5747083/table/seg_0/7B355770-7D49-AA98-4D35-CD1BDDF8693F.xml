@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7B355770-7D49-AA98-4D35-CD1BDDF8693F" name="PedidoDetalles">
+<createdBy>major</createdBy>
+<createdTime>2024-05-07 19:59:02 UTC</createdTime>
+<generatorID>3BFBF516-1CC1-EF47-6182-86964123A402</generatorID>
+<ownerDesignName>ProyectoFinal</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cantidad" id="523DD6BA-A680-9740-E447-59B5E2D25934">
+<createdBy>major</createdBy>
+<createdTime>2024-05-07 19:59:02 UTC</createdTime>
+<generatorID>314D82C5-D439-50B9-015E-5CEBEE7353EC</generatorID>
+<ownerDesignName>ProyectoFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="precio" id="63D73D9A-31E8-712B-4E0D-780E16F43521">
+<createdBy>major</createdBy>
+<createdTime>2024-05-07 19:59:02 UTC</createdTime>
+<generatorID>FE543868-5304-71FD-E9E9-65EB6CDCCB0C</generatorID>
+<ownerDesignName>ProyectoFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Pedidos_idPedido" id="C31F4C09-46A1-131C-EDC8-9532FE4F4CA8">
+<createdBy>major</createdBy>
+<createdTime>2024-05-07 19:59:02 UTC</createdTime>
+<generatorID>105D0924-D2C9-E02F-BD13-E740CBDCDC57</generatorID>
+<ownerDesignName>ProyectoFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="80DADB59-7126-C3C8-5437-E698594D9E4F" referredColumn="4B90A3AF-3087-4D89-3D0D-2B89C07F8255"/>
+</associations>
+</Column>
+<Column name="idPedidoDetalles" id="A8991491-DC3D-FE29-3108-8A57AE332994">
+<createdBy>major</createdBy>
+<createdTime>2024-05-07 22:53:50 UTC</createdTime>
+<generatorID>B21A0814-9612-490D-A9CD-A76DFEED49F9</generatorID>
+<ownerDesignName>ProyectoFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="257F52DC-83D0-9E33-AE11-8E29B92D899E" name="PedidoDetalles_PK">
+<createdBy>major</createdBy>
+<createdTime>2024-05-07 22:53:50 UTC</createdTime>
+<generatorID>31E060E2-E9E9-F0A2-F3D6-768E47649E02</generatorID>
+<ownerDesignName>ProyectoFinal</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A8991491-DC3D-FE29-3108-8A57AE332994"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5A350CD4-327A-5B1B-B9EA-92D110AD87E8" name="PedidoDetalles__IDX">
+<createdBy>major</createdBy>
+<createdTime>2024-05-07 19:59:03 UTC</createdTime>
+<ownerDesignName>ProyectoFinal</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>AD078318-C447-6E6D-1D54-B5492FD9FBEC</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="C31F4C09-46A1-131C-EDC8-9532FE4F4CA8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="726A1112-8529-217C-BC12-C552F363FE36" name="PedidoDetalles_Pedidos_FK">
+<createdBy>major</createdBy>
+<createdTime>2024-05-07 19:59:03 UTC</createdTime>
+<generatorID>AD078318-C447-6E6D-1D54-B5492FD9FBEC</generatorID>
+<ownerDesignName>ProyectoFinal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C31F4C09-46A1-131C-EDC8-9532FE4F4CA8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Flores_Arreglos" directorySegmentName="seg_0" id="B7ADE875-AD63-5428-5202-E22303711235">
+<createdBy>major</createdBy>
+<createdTime>2024-05-07 19:48:39 UTC</createdTime>
+<ownerDesignName>ProyectoFinal</ownerDesignName>
+<engineerTo>
+<item key="D51432B8-51BF-168A-C768-6BD9F5747083" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>10ADAAEC-3D22-5431-4B91-CB927340D63F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>AB56697C-D52B-8DAA-EE7D-CAA1CF7128DF</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

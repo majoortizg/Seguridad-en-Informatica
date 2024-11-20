@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B31F69DA-96E3-1738-0237-FC2DCAD13D40" name="Proveedores">
+<createdBy>major</createdBy>
+<createdTime>2024-05-07 19:59:02 UTC</createdTime>
+<generatorID>28652D9A-6B8C-B2C2-D7EC-FC75A1B9C3B3</generatorID>
+<ownerDesignName>ProyectoFinal</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idPersona" id="4D20EF91-5E4C-3359-F437-598D7F19C36A">
+<createdBy>major</createdBy>
+<createdTime>2024-05-07 19:59:02 UTC</createdTime>
+<generatorID>008084C5-72C6-7374-4732-2C2BB36B7CFC</generatorID>
+<ownerDesignName>ProyectoFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A72D04B7-C73C-4DD1-9CD1-7C388379DB01" referredColumn="BAEB008F-8392-CFE2-9E60-7120603A0225"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A7CA6FE0-78E9-3F20-7035-48288658FEA2" name="Proveedores_PK">
+<createdBy>major</createdBy>
+<createdTime>2024-05-07 19:59:02 UTC</createdTime>
+<generatorID>FF7F0074-FEFB-52C3-FB9D-F73F9940FA78</generatorID>
+<ownerDesignName>ProyectoFinal</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4D20EF91-5E4C-3359-F437-598D7F19C36A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B235F42E-0E87-196A-3688-4821E096F282" name="Proveedores_PKv1">
+<createdBy>major</createdBy>
+<createdTime>2024-05-07 19:59:02 UTC</createdTime>
+<generatorID>4080BB14-83F8-7A55-A8CF-37A10EC3ACDF</generatorID>
+<ownerDesignName>ProyectoFinal</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="1F34BCB8-6E4E-4D8D-AD17-A52546F15FA0" name="Proveedores_Persona_FK">
+<createdBy>major</createdBy>
+<createdTime>2024-05-07 19:59:02 UTC</createdTime>
+<generatorID>6601223C-0ECF-A741-D39C-6F7B15712D51</generatorID>
+<ownerDesignName>ProyectoFinal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4D20EF91-5E4C-3359-F437-598D7F19C36A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

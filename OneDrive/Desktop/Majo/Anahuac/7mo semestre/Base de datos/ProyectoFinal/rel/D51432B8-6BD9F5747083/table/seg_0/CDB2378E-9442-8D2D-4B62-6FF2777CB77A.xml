@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CDB2378E-9442-8D2D-4B62-6FF2777CB77A" name="Arreglos">
+<createdBy>major</createdBy>
+<createdTime>2024-05-07 22:53:51 UTC</createdTime>
+<generatorID>C64DBA34-44AA-07A2-7E67-F3F4E462BFD0</generatorID>
+<ownerDesignName>ProyectoFinal</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idProducto" id="F6624C66-4344-FB7F-2A8C-916C888E42AC">
+<createdBy>major</createdBy>
+<createdTime>2024-05-07 22:53:51 UTC</createdTime>
+<generatorID>2649BE95-C74F-9C82-01FA-B9A320AE65D2</generatorID>
+<ownerDesignName>ProyectoFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4B811B4A-C4E8-5167-7BAF-DDECA132E450" referredColumn="B251DD67-AE3B-CC01-DC1E-734A6BC5EC93"/>
+</associations>
+</Column>
+<Column name="precioArreglo" id="6685085B-7B17-D455-E1E2-4CE0924FF2B7">
+<createdBy>major</createdBy>
+<createdTime>2024-05-07 22:53:51 UTC</createdTime>
+<generatorID>1893BD2B-3487-A727-DD61-6A9981796091</generatorID>
+<ownerDesignName>ProyectoFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5DD949E4-7558-3584-FD60-86F0B1146C12" name="Arreglosv1_PK">
+<createdBy>major</createdBy>
+<createdTime>2024-05-07 22:53:51 UTC</createdTime>
+<generatorID>3ED7D4FF-EF94-98BE-54DB-1A417336EC8E</generatorID>
+<ownerDesignName>ProyectoFinal</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F6624C66-4344-FB7F-2A8C-916C888E42AC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C25D8C19-E5C9-01EE-604C-1FA158D52668" name="Arreglosv1_Producto_FK">
+<createdBy>major</createdBy>
+<createdTime>2024-05-07 22:53:51 UTC</createdTime>
+<generatorID>04AC3E4C-2CF0-A322-A549-0D7906FED59D</generatorID>
+<ownerDesignName>ProyectoFinal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F6624C66-4344-FB7F-2A8C-916C888E42AC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

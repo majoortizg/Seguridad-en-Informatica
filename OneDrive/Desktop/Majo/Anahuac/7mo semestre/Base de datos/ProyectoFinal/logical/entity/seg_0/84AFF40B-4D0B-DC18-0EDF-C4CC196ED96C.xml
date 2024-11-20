@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="84AFF40B-4D0B-DC18-0EDF-C4CC196ED96C" name="MetodosPago">
+<createdBy>major</createdBy>
+<createdTime>2024-05-07 17:39:03 UTC</createdTime>
+<ownerDesignName>ProyectoFinal</ownerDesignName>
+<engineerTo>
+<item key="D51432B8-51BF-168A-C768-6BD9F5747083" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idMetodo" id="454BAFD3-5676-D0C2-034B-5F6DD15A411A">
+<createdBy>major</createdBy>
+<createdTime>2024-05-07 17:39:10 UTC</createdTime>
+<ownerDesignName>ProyectoFinal</ownerDesignName>
+<engineerTo>
+<item key="D51432B8-51BF-168A-C768-6BD9F5747083" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombreMetodo" id="7D52B511-9709-5110-EAC5-7071388570E0">
+<createdBy>major</createdBy>
+<createdTime>2024-05-07 17:39:49 UTC</createdTime>
+<ownerDesignName>ProyectoFinal</ownerDesignName>
+<engineerTo>
+<item key="D51432B8-51BF-168A-C768-6BD9F5747083" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idPedido" id="7C800D59-0FCC-CB7F-373E-A874F82BB7AD">
+<createdBy>major</createdBy>
+<createdTime>2024-05-07 19:55:04 UTC</createdTime>
+<generatorID>CA1DFA84-D768-FBE1-3375-AF4FE9CA3E8A</generatorID>
+<ownerDesignName>ProyectoFinal</ownerDesignName>
+<engineerTo>
+<item key="D51432B8-51BF-168A-C768-6BD9F5747083" value="true"/>
+</engineerTo>
+<referedAttribute>A024AB27-87F0-74B7-A9AA-9468E4232DAA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="21767CDE-759A-FF45-6B7E-A2EF8DEDFECA" name="MetodosPago PK">
+<createdBy>major</createdBy>
+<createdTime>2024-05-07 17:39:22 UTC</createdTime>
+<ownerDesignName>ProyectoFinal</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="D51432B8-51BF-168A-C768-6BD9F5747083" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>454BAFD3-5676-D0C2-034B-5F6DD15A411A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

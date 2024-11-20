@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="12313823-2020-B72C-0DBB-C06BEE00AC5D" name="Flores_Arreglos">
+<createdBy>major</createdBy>
+<createdTime>2024-05-07 23:05:23 UTC</createdTime>
+<ownerDesignName>ProyectoFinal</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Flores_idProducto" id="626F0B2D-994D-168E-2DA5-60BE8B2B1F22">
+<createdBy>major</createdBy>
+<createdTime>2024-05-07 23:05:23 UTC</createdTime>
+<ownerDesignName>ProyectoFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="40E76BAB-6138-3C70-3184-2CE05B8DF0A6" referredColumn="2DD7F9F2-9361-D2DB-0170-FB87891901C7"/>
+</associations>
+</Column>
+<Column name="Arreglos_idProducto" id="FD5EA73A-74CB-400E-36BB-D6748528055F">
+<createdBy>major</createdBy>
+<createdTime>2024-05-07 23:05:23 UTC</createdTime>
+<ownerDesignName>ProyectoFinal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3F3AB9B3-B1E9-980D-1A7D-842AD8077450" referredColumn="F6624C66-4344-FB7F-2A8C-916C888E42AC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="745E6F39-C0CE-9487-7806-9B3045905744" name="Flores_Arreglos_PK">
+<createdBy>major</createdBy>
+<createdTime>2024-05-07 23:05:23 UTC</createdTime>
+<ownerDesignName>ProyectoFinal</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="626F0B2D-994D-168E-2DA5-60BE8B2B1F22"/>
+<colUsage columnID="FD5EA73A-74CB-400E-36BB-D6748528055F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7694B26A-E371-1C47-7D91-93DC1A082583" name="Flores_Arreglos_Flores_FK">
+<createdBy>major</createdBy>
+<createdTime>2024-05-07 23:05:23 UTC</createdTime>
+<generatorID>80ED88D9-190D-090A-389A-4FC22400CF8B</generatorID>
+<ownerDesignName>ProyectoFinal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="626F0B2D-994D-168E-2DA5-60BE8B2B1F22"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="27835583-35C3-96B6-0F68-D8FE21C4BA2E" name="Flores_Arreglos_Arreglos_FK">
+<createdBy>major</createdBy>
+<createdTime>2024-05-07 23:05:23 UTC</createdTime>
+<generatorID>80ED88D9-190D-090A-389A-4FC22400CF8B</generatorID>
+<ownerDesignName>ProyectoFinal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FD5EA73A-74CB-400E-36BB-D6748528055F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
