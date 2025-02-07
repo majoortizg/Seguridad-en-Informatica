@@ -28,3 +28,14 @@ print ("\n", "RSA - phiA: ", phiA)
 dA = Crypto.Util.number.inverse(e,phiA)
 print("\n", "RSA Llave Privada - dA: ", dA)
 
+# El mensaje a cifrar sera un numero 450
+m = 450
+print("\n RSA - Mensaje - :", m)
+
+# Bob cifra el mensaje con la clave publica de Alice
+mc = pow(m, e, nA)
+print("\n RSA Mensaje Cifrado - : ", mc)
+
+#Alice descifra el mensaje con su llave privada
+mA = pow(mc, dA, nA)
+print("\n RSA Mensaje Descifrado - : ", mA)
