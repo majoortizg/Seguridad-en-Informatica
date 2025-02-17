@@ -46,9 +46,12 @@ print("\n", "Llave Secreta compartida (interceptada por BEve)", s1)
 s2 = pow(AEve,sBob,p)
 print("\n", "Llave Secreta compartida (interceptada por AEve)", s2)
 
-# Eve calcula las llaves secretas compartidas entre Alica y Bob
-s1Eve = pow(B,sAlice,p)
-s2Eve = pow(A,sBob,p)
+# Eve calcula las llaves secretas compartidas entre Alice y Bob
+s1Eve = pow(A,sEve,p)
+s2Eve = pow(B,sEve,p)
+
+print("\nLlave secreta robada por Eve (con Alice): ", s1Eve)
+print("\nLlave secreta robada por Eve (con Bob): ", s2Eve)
 
 # Comparamos las llaves secretas
 h1 = hashlib.sha512(int.to_bytes(s1, length=1024, byteorder='big')).hexdigest()
@@ -63,12 +66,9 @@ else:
     print("¡Cuidado! El mensaje ha sido un hackeado.")
 
 if (h1Eve==h2Eve):
-    print("¡HACKEADO!")
+    print("¡HACKEADOS, Eve logro infiltrarse!")
 else:
-    print("¡BOOOO!")
-
-
-print("\n", "h1:", h1)
+    print("¡BOOOO mala hacker!")
 
 
 
