@@ -1,5 +1,7 @@
 # Ejemplo de cifrado usando RSA
 
+# importamos las siguiente librerias que proporcionan funciones para generar numeros primos
+# y realizar operaciones criptograficas
 import Crypto.Random
 import Crypto.Util.number
 
@@ -10,7 +12,7 @@ e = 65537
 print("\n", "Numero de Fermat 2^16+1 e: ",e)
 
 
-# Calculamos las llaves publicas de Alice
+# Calculamos las llaves publicas de Alice de 1024 bits
 pA = Crypto.Util.number.getPrime(1024, randfunc = Crypto.Random.get_random_bytes)
 print("\n", "RSA - Primo de Alice pA: ", pA)
 qA = Crypto.Util.number.getPrime(1024, randfunc = Crypto.Random.get_random_bytes)
@@ -20,7 +22,7 @@ print("\n", "RSA - Primo de Alice qA: ", qA)
 nA = pA * qA
 print("\n", "RSA - nA: ", nA)
 
-# Calculamos phiA
+# Calculamos phiA, que se usa para calcular la llave privada
 phiA = (pA - 1) * (qA - 1)
 print ("\n", "RSA - phiA: ", phiA)
 
